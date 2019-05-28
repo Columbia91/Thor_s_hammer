@@ -1,0 +1,253 @@
+﻿<Window x:Class="TorApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TorApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="633.937" Width="1184.216">
+    <Canvas>
+        <Canvas.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="-90" RenderingBias="Quality" ShadowDepth="2"/>
+        </Canvas.Effect>
+        <Polygon Fill="Red" Points="100,150 200,50 200,150" RenderTransformOrigin="0.5,0.5">
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="23.674" Y="-26.443"/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
+        <Rectangle Fill="FloralWhite" Stroke="Red" StrokeThickness="2" 
+            Width="100" Height="100" Canvas.Left="100" Canvas.Top="150"
+            RadiusX="10" RadiusY="10" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="9.531" Y="-21.677"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="Red" Stroke="White" StrokeThickness="3" 
+            Width="100" Height="100" Canvas.Left="100" Canvas.Top="250"
+            RadiusX="10" RadiusY="10" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="-1.538" Y="-22.291"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="FloralWhite" Stroke="Red" StrokeThickness="2" 
+            Width="100" Height="100" Canvas.Left="100" Canvas.Top="350"
+            RadiusX="10" RadiusY="10" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="-12.607" Y="-22.906"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Polygon Fill="Red" Points="100,450 200,450 200,550" RenderTransformOrigin="0.5,0.5">
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="1.536" Y="-27.672"/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
+        <Rectangle Fill="FloralWhite" Stroke="Red" StrokeThickness="2" 
+            Width="100" Height="100" Canvas.Left="200" Canvas.Top="50"
+            RadiusX="10" RadiusY="10" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="19.985" Y="-9.993"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Image Grid.Column="1" Source="33872060.jpg" Canvas.Left="773" Width="403" Canvas.Top="51" Height="446"/>
+        <Rectangle Fill="FloralWhite" Stroke="Red" StrokeThickness="2" 
+            Width="100" Height="100" Canvas.Left="200" Canvas.Top="450"
+            RadiusX="10" RadiusY="10" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="-24.29" Y="-12.451"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="Red" Stroke="White" StrokeThickness="3" 
+            Width="100" Height="100" Canvas.Left="200" Canvas.Top="250"
+            RadiusX="10" RadiusY="10" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="-2.153" Y="-11.222"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="FloralWhite" Stroke="Red" StrokeThickness="2" 
+            Width="100" Height="100" Canvas.Left="300" Canvas.Top="150"
+            RadiusX="10" RadiusY="10" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="8.302" Y="0.461"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="FloralWhite" Stroke="Red" StrokeThickness="2" 
+            Width="100" Height="100" Canvas.Left="200" Canvas.Top="350"
+            RadiusX="10" RadiusY="10" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="-13.222" Y="-11.837"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="FloralWhite" Stroke="Red" StrokeThickness="2" 
+            Width="100" Height="100" Canvas.Left="300" Canvas.Top="350"
+            RadiusX="10" RadiusY="10" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="-13.836" Y="-0.768"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="Red" Stroke="White" StrokeThickness="3" 
+            Width="100" Height="100" Canvas.Left="300" Canvas.Top="250"
+            RadiusX="10" RadiusY="10" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="-2.767" Y="-0.154"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="FloralWhite" Stroke="Red" StrokeThickness="2" 
+            Width="100" Height="100" Canvas.Left="200" Canvas.Top="150"
+            RadiusX="10" RadiusY="10" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="8.916" Y="-10.608"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Polygon Fill="Red" Points="300,150 200,50 200,150" Canvas.Left="100" RenderTransformOrigin="0.5,0.5">
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="22.752" Y="-9.84"/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
+        <Polygon Fill="Red" Points="100,450 200,450 100,550" Canvas.Left="200" RenderTransformOrigin="0.5,0.5">
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="0.307" Y="-5.534"/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
+        <Rectangle Fill="FloralWhite" Stroke="Red" StrokeThickness="2" 
+            Width="100" Height="100" Canvas.Left="400" Canvas.Top="250"
+            RadiusX="10" RadiusY="10" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="-3.382" Y="10.915"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="FloralWhite" Stroke="Red" StrokeThickness="2" 
+            Width="100" Height="100" Canvas.Left="500" Canvas.Top="250"
+            RadiusX="10" RadiusY="10" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="-3.996" Y="21.984"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="FloralWhite" Stroke="Red" StrokeThickness="2" 
+            Width="100" Height="100" Canvas.Left="600" Canvas.Top="250"
+            RadiusX="10" RadiusY="10" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="-4.611" Y="33.053"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Line Stroke="Black" X1="295" Y1="155" X2="205" Y2="245" StrokeThickness="2" RenderTransformOrigin="0.5,0.5">
+            <Line.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="18.066" Y="-21.425"/>
+                </TransformGroup>
+            </Line.RenderTransform>
+        </Line>
+        <Line Stroke="Black" X1="295" Y1="255" X2="205" Y2="345" StrokeThickness="2" RenderTransformOrigin="0.5,0.5">
+            <Line.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="12.531" Y="-21.732"/>
+                </TransformGroup>
+            </Line.RenderTransform>
+        </Line>
+        <Line Stroke="Black" X1="295" Y1="355" X2="205" Y2="445" StrokeThickness="2" RenderTransformOrigin="0.5,0.5">
+            <Line.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.355"/>
+                    <TranslateTransform X="6.997" Y="-22.04"/>
+                </TransformGroup>
+            </Line.RenderTransform>
+        </Line>
+    </Canvas>
+</Window>
